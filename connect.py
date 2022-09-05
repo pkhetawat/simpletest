@@ -1,6 +1,6 @@
 import ibm_db
 
-conn_str = "HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;DATABASE=BLUDB;Security=SSL;PORT=31498;UID=nzv68443;PWD=Welcome2ibm@123"
+conn_str = "HOSTNAME=21fecfd8-47b7-4937-840d-d791d0218660.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;DATABASE=BLUDB;Security=SSL;PORT=31864;UID=qwf74316;PWD=8qMViBjOkj4tgucP"
 
 connection = ibm_db.connect(conn_str,"","")
 
