@@ -1,5 +1,5 @@
 var ibmdb = require("ibm_db")
-  , connStr = "DATABASE=BLUDB;HOSTNAME=3883e7e4-18f5-4afe-be8c-fa31c41761d2.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;Security=SSL;PORT=31498;PROTOCOL=TCPIP;UID=nzv68443;PWD=Welcome2ibm@123";
+  , connStr = "DATABASE=BLUDB;HOSTNAME=21fecfd8-47b7-4937-840d-d791d0218660.bs2io90l08kqb1od8lcg.databases.appdomain.cloud;Security=SSL;PORT=31864;PROTOCOL=TCPIP;UID=qwf74316;PWD=8qMViBjOkj4tgucP";
 
 ibmdb.open(connStr, function (err, connection) {
     if (err)
