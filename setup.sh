@@ -1,28 +1,9 @@
 #!/usr/bin/sh
 
 echo "Installing Required python, node and go module..";
-apt-get install -y apt-utils
-apt-get install -y tzdata
-apt-get install -y gcc
-apt-get install -y python
-apt-get install -y python-pip
-apt-get install -y python-devel
-apt-get install -y git
-apt-get install -y golang-go
-apt-get install -y wget
-apt-get install -y pam
-apt-get install -y tar
-apt-get install -y xz
-apt-get install -y php
-apt-get install -y php-devel
-apt-get install -y make
-apt-get install -y gcc-c++
-apt-get install -y php-pear
-apt-get install -y python3
-apt-get install -y python3-pip
-apt-get install -y python3-devel
-apt-get install numactl
-apt-get install libffi-devel
+yum install -y gcc python python-devel python-pip git go  golang-go wget pam tar xz php php-devel make gcc-c++ php-pear python3 python3-pip python3-devel tzdata 
+yum install -y "*/libcrypt.so.1"
+
 cd /usr/test-scripts
 wget -c https://bootstrap.pypa.io/get-pip.py
 python3 get-pip.py
