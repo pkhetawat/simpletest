@@ -5,6 +5,7 @@ apt-get install -y apt-utils
 apt-get install -y tzdata
 apt-get install -y gcc
 apt-get install -y python
+apt-get install -y python-pip
 apt-get install -y python-devel
 apt-get install -y git
 apt-get install -y golang-go
