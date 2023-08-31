@@ -1,10 +1,7 @@
 # start by pulling the ubuntu image
-FROM ubuntu:latest
+FROM amazonlinux:latest
+
 WORKDIR /usr/test-scripts
-RUN apt-get install \
-    apt-transport-https
-RUN apt-get update -y && apt-get install libxml2 -y
-RUN apt-get install libnuma-dev -y
 COPY setup.sh /usr/test-scripts
 RUN chmod +x ./setup.sh
 RUN ./setup.sh
